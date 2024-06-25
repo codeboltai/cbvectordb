@@ -2,7 +2,7 @@
     "name": "cbvectordb",
     "author": "Utkarsh Shukla",
     "description": "A vector database that uses the local file system for storage.",
-    "version": "0.7.6",
+    "version": "1.0.0",
     "license": "MIT",
     "keywords": [
         "gpt"

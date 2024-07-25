@@ -1,23 +1,16 @@
 {
-    "name": "vectra",
+    "name": "cbvectordb",
     "author": "Steven Ickman",
     "description": "A vector database that uses the local file system for storage.",
-    "version": "0.7.6",
+    "version": "0.7.7",
     "license": "MIT",
     "keywords": [
         "gpt"
     ],
-    "bugs": {
-        "url": "https://github.com/Stevenic/vectra/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Stevenic/vectra.git"
-    },
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
     "bin": {
-        "vectra": "./bin/vectra.js"
+        "cbvectordb": "./bin/cbvectordb.js"
     },
     "typesVersions": {
         "<3.9": {

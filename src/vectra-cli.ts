@@ -10,7 +10,7 @@ import { FileFetcher } from './FileFetcher';
 export async function run() {
     // prettier-ignore
     const args = await yargs(hideBin(process.argv))
-        .scriptName('cbvectordb')
+        .scriptName('vectra')
         .command('create <index>', `create a new local index`, {}, async (args) => {
             const folderPath = args.index as string;
             const index = new LocalDocumentIndex({ folderPath });
